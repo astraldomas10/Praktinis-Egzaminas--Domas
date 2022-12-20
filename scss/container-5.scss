@@ -1,0 +1,121 @@
+.container-5{
+    height: 883px;
+    width: 100%;
+    background-color: #6696E2;
+    h2{
+        padding-top: 98.76px;
+        text-align: center;
+        font-size: 1.9em;
+        // margin-top: 98.76px;
+        margin-bottom: 21.24px;
+        color: white;
+    }
+    .linija-2{
+        width: 34px;
+        height: 2px;
+        background-color: #41D395;
+        margin: auto;
+    }
+    .tekstas-1{
+        text-align: center;
+        margin-top: 26.76px;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        align-items:flex-end;
+        
+      }
+      .payment{
+        color: gray;
+      }
+      .box{
+        width: 343px;
+        height: 450px;
+        background-color: #eee;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin: 0;
+        p{
+            padding: 10px;
+            font-size: 0.8em;
+            span{
+                font-size: 4em;
+            }
+        }
+        .juodas{
+            background-color:#1C1C1C;
+            width: 100%;
+            height: 40%;
+            border: none;
+            border-radius: 5px 5px 0px 0px;
+        }
+        .zalias{
+            width: 100%;
+            height: 2%;
+            background-color: #41D395;
+        }
+        .pilkas{
+            color: #86878B;
+            justify-content: center;
+            margin: 10px;
+            p{
+                margin: 5px;
+                font-size: 0.9em;
+            }
+        }
+      }
+      .box-2{
+        width: 343px;
+        height: 480px;
+        background-color: #eee;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        margin: 0;
+        .juodas-2{
+            background-color:#1C1C1C;
+            width: 100%;
+            height: 37%;
+            border: none;
+            border-radius: 5px 5px 0px 0px;
+            p{
+                padding: 10px;
+                font-size: 0.8em;
+                span{
+                    font-size: 4em;
+                }
+            }
+        }
+        .zalias-2{
+            width: 100%;
+            height: 40px;
+            background-color: #41D395;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+          
+        }
+        .pilkas{
+            color: #86878B;
+            justify-content: center;
+            margin: 10px;
+            p{
+                margin: 5px;
+                font-size: 0.9em;
+                padding: 10px;
+            }
+        }
+      }
+
+      // Mobile 
+@media (max-width:768px){
+    .container-5{
+    flex-direction: column;
+    align-items: center;
+    }
+    }

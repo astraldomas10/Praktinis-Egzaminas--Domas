@@ -1,0 +1,64 @@
+h2{
+    text-align: center;
+    margin-top: 67px;
+    margin-bottom: 31.24px;
+}
+.linija-2{
+    width: 34px;
+    height: 2px;
+    background-color:#6696E2;
+    margin: auto;
+    margin-bottom: 58px;
+}
+.container {
+    display: flex;
+    justify-content:space-around
+  }
+  
+  
+  .box {
+    width: 25%;
+    height: 300px;
+    text-align: center;
+
+    .chatbox{
+      max-width: 273px;
+      height: 140px;
+      margin: auto;
+      margin-top: 30px;
+      background-color: #6696E2;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 15px;
+      color: white;
+      text-align: justify;
+      padding: 15px;
+    }
+    .profile{
+      text-align: left;
+      margin-left: 35px;
+      display: flex;
+      align-items: center;
+      img{
+        width: 65px;
+        display: inline-block;
+      }
+      .jeremy{
+        margin-left: 15px;
+        h6{
+          margin-left: px;
+          font-size: 1.3em;
+          font-weight: 400;
+          display: inline-block;
+        }
+        p{
+          color:#86878B;
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+
+  .swiper-pagination-bullet {
+    background-color: red;
+  }

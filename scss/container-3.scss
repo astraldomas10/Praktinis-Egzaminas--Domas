@@ -1,0 +1,61 @@
+.container-3{
+    height: 596px;
+    background-color: black;
+    color: white;
+    display: flex;
+    img {
+        width: 388.58px;
+        margin: 210.04px;
+        margin-top: 213px;
+    }
+    .informacija{
+        margin-top: 20px;
+        h2{
+            
+            padding-right: 200px;
+            text-align: left;
+            font-size: 2em;
+        }
+        .linija{
+            width: 200px;
+            height: 2px;
+            background-color: #E27866;
+            margin-bottom: 27px;
+        }
+        p {
+            text-align: left;
+        }
+        .logoText{
+            display: flex;
+            margin-top: 20px;
+            .description{
+                margin-left: 25px;
+                h4{
+                    margin: 0px 0px 5px 0px;
+                }
+            }
+
+            .logo{
+                background-color: #E27866;
+                height: 80px;
+                width: 101px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i{
+                    font-size: 1.7em;
+
+                }
+              
+        }
+    }
+    }}
+
+// Mobile 
+@media (max-width:768px){
+.container-{
+flex-direction: column;
+align-items: center;
+}
+}

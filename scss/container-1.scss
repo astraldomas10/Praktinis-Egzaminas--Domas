@@ -1,0 +1,139 @@
+
+.container-1{
+    margin-top: 80px;
+    background: url(..//images/photo-1480714378408-67cf0d13bc1b.png);
+    background-size:cover;
+    background-position-y: center;
+    width: 100%;
+    height: 639px;
+}
+.container-1::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        opacity: 63%;
+        width: 100%;
+        height: 639px;
+        margin-top: 80px;
+    }
+
+.container-1{
+    display: flex;
+
+    .maininfo{
+        padding-left: 110px;
+        padding-top: 50px;
+        width: 60%;
+        z-index: 1;
+    }
+    img{
+        width: 247px;
+    }
+
+    h1{
+        color: white;
+        margin-top: 30px;
+        width: 426px;
+    }
+    .bruksnys{
+        margin-top: 21px;
+        width: 50px;
+        height: 2px;
+        background: white;
+    }
+    p{
+        color: white;
+        margin-top:24px;
+        margin-bottom: 50px;
+        text-align: left;
+        width: 651px;
+    }
+    a{
+        border: 2px white solid;
+        padding: 7px 15px;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .inputlentele-1{
+        margin: 40px;
+        width: 360px;
+        height: 424px;
+        background: white;
+        border-radius: 5px 5px 5px 5px;
+        position: relative;
+        
+        .try{
+            text-align: center;
+            padding: 15px;
+            background: #F5F5F5;
+            margin-top: 0;
+            font-size: 1.3em;
+            border-radius: 5px 5px 0px 0px;
+            top:0;
+            
+            span {
+                color: #E27866;
+
+            }
+        }
+        .yourdetails{
+            text-align: left;
+            margin-left: 43px;
+            margin-top: 30px;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            
+        }
+        .irasyti {
+            width: 260px;
+            background: burlywood;
+            border: none;
+            border-bottom: 1px solid #D8D8D8;
+            margin-left: 43px;
+            background-color: white;
+            padding: 30px 10px 4px 5px;
+            color: #D8D8D8;
+
+            
+        }
+        button{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 57px;
+            background:#41D395;
+            border: none;
+            color: white;
+            font-size: larger;
+            border-radius: 0px 0px 5px 5px ;
+        }
+        .type{
+            border: none;
+            margin-left: 43px;
+            font-weight: 600;
+
+            .rutuliukas{
+                font-size:0.7em;
+                padding-top: 15px;
+                label{
+                    margin-right: 15px;
+                    padding-left: 5px;
+                }
+            }
+            
+        } } }
+    
+
+          // Mobile 
+  @media (max-width:768px){
+    .container-1{
+      flex-direction: column;
+      align-items: center;
+    }
+  }

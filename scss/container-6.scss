@@ -1,0 +1,59 @@
+.container-6{
+    background-color: #e27866;
+    width: 100%;
+    height: 573px;
+    .contactus{
+        padding-top: 70px;
+        color: white;
+    }
+    p{
+        text-align: center;
+        color: white;
+        margin-bottom: 27px;
+        font-size: 0.85em;
+    }
+}
+
+.inputlentele-2{
+    margin: auto;
+    width: 390px;
+    height: 314px;
+    background: white;
+    border-radius: 5px 5px 0px 0px;
+    
+    .irasyti {
+        width: 260px;
+        background: burlywood;
+        border: none;
+        border-bottom: 1px solid #D8D8D8;
+        margin-left: 43px;
+        background-color: white;
+        padding: 30px 10px 4px 5px;
+        color: #D8D8D8;
+    }
+    .send{
+        margin: auto;
+        display: flex;
+        margin-top: 50px;
+        background-color:#41D395;
+        color: white;
+        border: none;
+        padding: 10px 40px;
+        border-radius: 5px;
+    }
+    
+    .type{
+        border: none;
+        margin-left: 43px;
+        font-weight: 600;
+
+        .rutuliukas{
+            font-size:0.7em;
+            padding-top: 15px;
+            label{
+                margin-right: 15px;
+                padding-left: 5px;
+            }
+        }
+        
+    } }

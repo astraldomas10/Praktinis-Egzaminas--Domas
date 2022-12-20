@@ -1,0 +1,61 @@
+.container-4{
+    height: 592px;
+    h2{
+        text-align: center;
+        font-size: 1.9em;
+        padding-top: 50px;
+        // margin-top: 100px;
+        // margin-bottom: 21.24px;
+    }
+    .linija-2{
+        width: 34px;
+        height: 2px;
+        background-color: #E27866;
+        margin: auto;
+    }
+    .tekstas-1{
+        text-align: center;
+        margin-top: 26.76px;
+        margin-bottom: 65.24px;
+        color: #86878B;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .box {
+        display: inline-block;
+        background-color: white;
+        border: none;
+        width: 25%;
+        text-align: center;
+        i{
+            font-size: 2em;
+            color: #E27866;
+            border: #E27866 2px solid;
+            padding: 20px;
+            border-radius: 100%;
+
+        }
+        h5,p{
+            margin: 20px;
+        }
+        h5{
+            font-size: 1.4em;
+            font-weight: 400;
+        }
+        p {
+            color:#86878B ;
+            font-size: 0.9em;
+        }
+      }
+}
+
+// Mobile 
+@media (max-width:768px){
+    .container-4{
+    flex-direction: column;
+    align-items: center;
+    }
+    }

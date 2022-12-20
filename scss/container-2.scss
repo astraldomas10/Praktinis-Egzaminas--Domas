@@ -1,0 +1,80 @@
+.container-2{
+    display: flex;
+    background: linear-gradient(rgba(102,150,226,0.42), rgba(226,120,102,0.42)), url(..//images/christoffer-engstrom-503481-unsplash@2x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 595px;
+    .tryskvadratai{
+        margin-top: 100px;
+
+        .kvadratukas{
+            margin: 20px;
+            margin-left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: #A37169;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h5{
+                color:white;
+                rotate: -45deg;
+            }
+        }
+        .kvadratukas:hover{
+            // content: "";
+            // position: absolute;
+            width: 100px;
+            height: 100px;
+            background: #E27866;
+            cursor: pointer;
+        }
+    }
+    .tekstai-2{
+        width: 40%;
+        margin-top: 100px;
+        margin-left: 40px;
+        h2,p{
+            text-align: left;
+            color: white;
+        }
+        h2{
+            font-size: 1.8em;
+            padding-right: 80px;
+        }
+    }
+    .nuotraukos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35%;
+    height: 35%;
+    margin-top: 120px;
+    .nuotrauka1{
+        width: 33%;
+        margin: 0;
+    }
+    .nuotrauka1:hover{
+        cursor: pointer;
+    }
+
+    .nuotrauka3{
+        width: 66%;
+        margin: 0;
+    }
+    .nuotrauka3:hover{
+        cursor: pointer;
+    }
+    }
+}
+
+
+          // Mobile 
+          @media (max-width:768px){
+            .container-2{
+              flex-direction: column;
+              align-items: center;
+            }
+          }

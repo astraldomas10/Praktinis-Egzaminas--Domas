@@ -1,0 +1,32 @@
+.socialmedia{
+    display: flex;
+    height: 105px;
+    position: relative;
+    .tekstas{
+        margin: 20px;
+        margin-left: 110px;
+        p{
+            width: 394px;
+            font-size: small;
+            font-weight: 100;
+            margin-top: 5px;
+            color: #86878b;
+            text-align: left;
+        }
+    }
+    .icons {
+        color: #E27866;
+        opacity: 80%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
+        i {
+            padding: 30px;
+            margin: 20px;
+        }
+    }
+}
